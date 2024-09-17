@@ -1,0 +1,82 @@
+{
+    "courseDetails": {
+      "code": "BA3102",
+      "name": "Quantitative techniques",
+      "type": "Program Elective",
+      "period": "Semester - I",
+      "credits": {
+        "lecture": 3,
+        "tutorial": 0,
+        "practical": 1,
+        "project": 0
+      },
+      "outcomes": ["CO2", "CO4", "CO5", "CO7", "CO13", "CO14"],
+      "mappedPOs": ["PO7", "PO8", "PO10", "PO12"]
+    },
+    "courseSummary": {
+      "totalStudents": 102,
+      "averageMark": 85
+    },
+    "assessmentProgress": {
+      "axisY": {
+        "title": "Completion Percentage",
+        "suffix": "%",
+        "maximum": 100
+      },
+      "axisX": {
+        "title": "Assessment Type"
+      },
+      "data": [
+        {
+          "type": "column",
+          "name": "Pending",
+          "color": "#697fcf",
+          "dataPoints": [
+            { "label": "Assignment", "y": 25 },
+            { "label": "Quiz", "y": 50 },
+            { "label": "Presentation", "y": 60 },
+            { "label": "Lab", "y": 80 },
+            { "label": "Viva", "y": 90 }
+          ]
+        },
+        {
+          "type": "column",
+          "name": "Completed",
+          "color": "#3b7d56",
+          "dataPointWidth": 20,
+          "dataPoints": [
+            { "label": "Assignment", "y": 75 },
+            { "label": "Quiz", "y": 50 },
+            { "label": "Presentation", "y": 40 },
+            { "label": "Lab", "y": 20 },
+            { "label": "Viva", "y": 10 }
+          ]
+        }
+      ]
+    },
+    "studentAttendance": {
+      "axisX": {
+        "title": "Weeks",
+        "interval": 1,
+        "gridThickness": 1
+      },
+      "axisY": {
+        "title": "Attendance (%)",
+        "suffix": "%",
+        "gridDashType": "dash"
+      },
+      "data": [
+        { "x": "2024-07-01", "y": 50 },
+        { "x": "2024-07-08", "y": 60 },
+        { "x": "2024-07-15", "y": 80 },
+        { "x": "2024-07-22", "y": 75 },
+        { "x": "2024-07-29", "y": 90 },
+        { "x": "2024-08-05", "y": 85 },
+        { "x": "2024-08-12", "y": 95 },
+        { "x": "2024-08-19", "y": 85 },
+        { "x": "2024-08-26", "y": 75 },
+        { "x": "2024-09-02", "y": 80 }
+      ]
+    }
+  }
+  
